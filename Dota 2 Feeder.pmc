@@ -1,0 +1,50 @@
+﻿[PMC Code v5.0.5]|F8||0|Window,2,Fast,0,1,Input,-1,-1,1|1|Macro1
+Groups=Start:1
+1|WinActivate||1|333|WinActivate||Dota 2|||
+2|Left Click, Continue, FoundX, FoundY|1623, 1034, 1623, 1034, 0xFFFFFF, 0, Fast RGB|1|100|PixelSearch||Window|Play Dota||
+3|Left Click, Continue, FoundX, FoundY|1609, 1034, 1609, 1034, 0xFFFFFF, 0, Fast RGB|1|100|PixelSearch||Window|Find Match||
+4|[Pause]||1|100|Sleep|||||
+5|Left Move & Click|960, 524 Left, 3|1|3000|Click|||Accept||
+6|Continue, Continue, FoundX, FoundY|210, 878, 212, 878, 0x850000, 0, Fast RGB|1|100|PixelSearch||Window|The Radiant||
+7|If Image/Pixel Found||1|0|If_Statement|||||
+8|F1|{F1}|1|10|Send|||||
+9|Move|185, 902, 0|1|10|Click|||||
+10|a|{a}|1|10|Send|||||
+11|Left Click|Left, 1, |1|10|Click|||||
+12|[Pause]||1|30000|Sleep|||||
+13|[End If]|EndIf|1|0|If_Statement|||||
+14|Continue, Continue, FoundX, FoundY|25, 1038, 33, 1047, 0x850000, 0, Fast RGB|1|100|PixelSearch||Window|The Dire||
+15|If Image/Pixel Found||1|0|If_Statement|||||
+16|F1|{F1}|1|10|Send|||||
+17|Move|50, 1020, 0|1|10|Click|||||
+18|a|{a}|1|10|Send|||||
+19|Left Click|Left, 1, |1|10|Click|||||
+20|[Pause]||1|30000|Sleep|||||
+21|[End If]|EndIf|1|0|If_Statement|||||
+22|Continue, Continue, FoundX, FoundY|942, 55, 942, 55, 0xFFFFFF, 0, Fast RGB|1|100|PixelSearch||Window|Random||
+23|If Image/Pixel Found||1|0|If_Statement|||||
+24|Left Move & Click|1673, 787 Left, 1|1|10|Click|||||
+25|[End If]|EndIf|1|0|If_Statement|||||
+26|Continue, Continue, FoundX, FoundY|1480, 993, 1480, 993, 0xC2736B, 0, Fast RGB|1|100|PixelSearch||Window|Reconnect||
+27|If Image/Pixel Found||1|0|If_Statement|||||
+28|Left Move & Click|1687, 1035 Left, 3|1|100|Click|||||
+29|[End If]|EndIf|1|0|If_Statement|||||
+30|Continue, Continue, FoundX, FoundY|1215, 223, 1215, 223, 0xFFFFFF, 0, Fast RGB|1|100|PixelSearch||Window|Overall Conduct (Green)||
+31|If Image/Pixel Found||1|0|If_Statement|||||
+32|Left Move & Click|1455, 848 Left, 1|1|10|Click|||||
+33|[End If]|EndIf|1|0|If_Statement|||||
+34|Continue, Continue, FoundX, FoundY|1215, 230, 1215, 230, 0xFFFFFF, 0, Fast RGB|1|100|PixelSearch||Window|Overall Conduct (Red)||
+35|If Image/Pixel Found||1|0|If_Statement|||||
+36|Left Move & Click|1456, 867 Left, 1|1|10|Click|||||
+37|[End If]|EndIf|1|0|If_Statement|||||
+38|Left Click, Continue, FoundX, FoundY|959, 803, 959, 803, 0xFFFFFF, 0, Fast RGB|1|100|PixelSearch||Window|Profile Badge Upgrade||
+39|Left Click, Continue, FoundX, FoundY|986, 771, 986, 771, 0xFFFFFF, 0, Fast RGB|1|100|PixelSearch||Window|Received An Item||
+40|Continue, Continue, FoundX, FoundY|1039, 458, 1039, 458, 0xADB2B2, 0, Fast RGB|1|100|PixelSearch||Window|||
+41|If Image/Pixel Found||1|0|If_Statement|||||
+42|Left Move & Click|962, 611 Left, 1|1|10|Click|||||
+43|[End If]|EndIf|1|0|If_Statement|||||
+44|Continue, Continue, FoundX, FoundY|989, 455, 989, 455, 0xAFB4B4, 0, Fast RGB|1|100|PixelSearch||Window|A party member is currently in another game||
+45|If Image/Pixel Found||1|0|If_Statement|||||
+46|Left Move & Click|963, 610 Left, 1|1|10|Click|||||
+47|[End If]|EndIf|1|0|If_Statement|||||
+
