@@ -47,4 +47,8 @@ Groups=Start:1
 45|If Image/Pixel Found||1|0|If_Statement|||||
 46|Left Move & Click|963, 610 Left, 1|1|10|Click|||||
 47|[End If]|EndIf|1|0|If_Statement|||||
+48|Continue, Continue, FoundX, FoundY|873, 406, 873, 406, 0xFF8D8D, 0, Fast RGB|1|100|PixelSearch||Window|Ban Imminent||
+49|If Image/Pixel Found||1|0|If_Statement|||||
+50|Left Move & Click|962, 660 Left, 1|1|10|Click|||||
+51|[End If]|EndIf|1|0|If_Statement|||||
 

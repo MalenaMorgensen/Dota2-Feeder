@@ -122,6 +122,14 @@ Loop
         Click, 963, 610 Left, 1
         Sleep, 10
     }
+    CoordMode, Pixel, Window
+    PixelSearch, FoundX, FoundY, 873, 406, 873, 406, 0xFF8D8D, 0, Fast RGB  ; Ban Imminent
+    Sleep, 100
+    If ErrorLevel = 0
+    {
+        Click, 962, 660 Left, 1
+        Sleep, 10
+    }
 }
 Return
 
